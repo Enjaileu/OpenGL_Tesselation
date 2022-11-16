@@ -1,0 +1,48 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "OpenGLTraining::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "engine::@d30147da1c6e0503853c"
+		},
+		{
+			"id" : "maths::@5810069d2bb47800fe83"
+		},
+		{
+			"id" : "input::@d890401496fc5cc61df8"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "game::@237b513620d2b2ecc71d"
+		}
+	],
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
