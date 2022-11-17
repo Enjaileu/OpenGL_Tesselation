@@ -1,4 +1,4 @@
-# Install script for directory: D:/opengl-training/AdvancedOpenGL/src/engine/input
+# Install script for directory: D:/TD4/SIONNEAU_Angele/OpenGL_Tesselation/AdvancedOpenGL/src/engine/input
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

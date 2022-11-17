@@ -1,4 +1,4 @@
-# Install script for directory: D:/opengl-training/AdvancedOpenGL/src/engine
+# Install script for directory: D:/TD4/SIONNEAU_Angele/OpenGL_Tesselation/AdvancedOpenGL/src/engine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/opengl-training/AdvancedOpenGL/build/src/engine/maths/cmake_install.cmake")
+  include("D:/TD4/SIONNEAU_Angele/OpenGL_Tesselation/AdvancedOpenGL/build/src/engine/maths/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/opengl-training/AdvancedOpenGL/build/src/engine/input/cmake_install.cmake")
+  include("D:/TD4/SIONNEAU_Angele/OpenGL_Tesselation/AdvancedOpenGL/build/src/engine/input/cmake_install.cmake")
 endif()
 

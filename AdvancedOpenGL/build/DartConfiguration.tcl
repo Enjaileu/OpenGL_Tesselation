@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: D:/opengl-training/AdvancedOpenGL
-BuildDirectory: D:/opengl-training/AdvancedOpenGL/build
+SourceDirectory: D:/TD4/SIONNEAU_Angele/OpenGL_Tesselation/AdvancedOpenGL
+BuildDirectory: D:/TD4/SIONNEAU_Angele/OpenGL_Tesselation/AdvancedOpenGL/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: DESKTOP-LHLP5H0
+Site: md8-2017-027
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Win32-MSBuild
@@ -27,8 +27,8 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "D:/opengl-training/AdvancedOpenGL"
-MakeCommand: "C:\Program Files\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
+ConfigureCommand: "C:/Users/angele.sionneau/scoop/apps/cmake/3.24.2/bin/cmake.exe" "D:/TD4/SIONNEAU_Angele/OpenGL_Tesselation/AdvancedOpenGL"
+MakeCommand: C:\Users\angele.sionneau\scoop\apps\cmake\3.24.2\bin\cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -63,8 +63,8 @@ UpdateOptions:
 UpdateType: 
 
 # Compiler info
-Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x64/cl.exe
-CompilerVersion: 19.29.30136.0
+Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx86/x64/cl.exe
+CompilerVersion: 19.33.31630.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
@@ -81,7 +81,7 @@ MemoryCheckCommandOptions:
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gcov.exe
+CoverageCommand: COVERAGE_COMMAND-NOTFOUND
 CoverageExtraFlags: -l
 
 # Testing options

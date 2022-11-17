@@ -5,7 +5,10 @@ layout (triangle_strip, max_vertices = 12) out;
 
 uniform float stretch = 0.7;
 
-flat out vec4 color;
+out GS_OUT{
+    vec4 color;
+} gs_out;
+//flat out vec4 color;
 
 uniform mat4 mvpMatrix;
 uniform mat4 mvMatrix;
@@ -15,16 +18,17 @@ void make_face(vec3 a, vec3 b, vec3 c)
     vec3 face_normal = normalize(cross(c - a, c - b));
     vec4 face_color = vec4(0.55, 0.95, 1.0, 1.0) * (mat3(mvMatrix) * face_normal).z;
     vec4 other_color = vec4(1.0, 0.0, 0.0, 1.0) *(mat3(mvMatrix) * face_normal).z;
+
     gl_Position = mvpMatrix * vec4(a, 1.0);
-    //color = other_color;
+    gs_out.color = face_color;
     EmitVertex();
 
     gl_Position = mvpMatrix * vec4(b, 1.0);
-    //color = other_color;
+    gs_out.color = other_color;
     EmitVertex();
 
     gl_Position = mvpMatrix * vec4(c, 1.0);
-    color = other_color;
+    gs_out.color = face_color;
     EmitVertex();
 
     EndPrimitive();

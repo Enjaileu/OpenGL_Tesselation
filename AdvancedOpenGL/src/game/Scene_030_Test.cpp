@@ -98,7 +98,7 @@ void Scene_030_Test::load() {
     
     //glPatchParameteri(GL_PATCH_VERTICES, 3); pas besoin car 3 c'est la valeur par défault
     
-    glPolygonMode(GL_FRONT_AND_BACK, GL_FILL); // GL_POINT  GL_LINE  GL_FILL
+    glPolygonMode(GL_FRONT_AND_BACK, GL_LINE); // GL_POINT  GL_LINE  GL_FILL
 
     shader = Assets::getShader(SHADER_ID(SHADER_NAME));
 }
