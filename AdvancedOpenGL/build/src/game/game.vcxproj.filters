@@ -1,115 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Apple.cpp">
+    <ClCompile Include="D:\OpenGL_Tesselation\AdvancedOpenGL\src\game\Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\BodyPart.cpp">
+    <ClCompile Include="D:\OpenGL_Tesselation\AdvancedOpenGL\src\game\SceneMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Cube.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\CubeMesh.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Game.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\SceneMain.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_001_Color.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_002_Point.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_003_Triangle.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_004_PassingData.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_005_Tessellation.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_006_Fragment.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_007_SpinningCube.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_008_SpinningCubes.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_009_TextureAsData.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_010_TextureCoordinates.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_011_MipmapTunnel.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_012_ArrayTextureAlienRain.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_013_InstancedGrassBlades.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_014_IndirectDrawAstroids.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_015_TessellationModes.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_016_TerrainRendering.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_017_CubicBezierPatches.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_018_DiscardGeometry.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_019_ModifyGeometry.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_020_GenerateGeometry.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_021_ChangePrimitiveType.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_022_ComputeShaderPrefixSum.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_023_ComputeShaderGrid.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_024_ComputeShaderRaytacing.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_025_ComputeShaderBoids.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_030_Test.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_Snake.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\Snake.cpp">
+    <ClCompile Include="D:\OpenGL_Tesselation\AdvancedOpenGL\src\game\Scene_030_Test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\game\CMakeLists.txt" />
+    <CustomBuild Include="D:\OpenGL_Tesselation\AdvancedOpenGL\src\game\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{EF94A268-69E7-338F-92FB-FC09C741BB28}</UniqueIdentifier>
+      <UniqueIdentifier>{2AC38643-07F2-3469-92A8-423A0B5BF1B1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

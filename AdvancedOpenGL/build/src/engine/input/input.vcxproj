@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PreferredToolArchitecture>x86</PreferredToolArchitecture>
   </PropertyGroup>
@@ -22,9 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{62849DDB-49CF-3BAB-9A1C-D2CC82E29E3E}</ProjectGuid>
+    <ProjectGuid>{8021E890-A866-3370-ABCB-10E6302B0248}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>input</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -33,22 +33,22 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\build\src\engine\input\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\OpenGL_Tesselation\AdvancedOpenGL\build\src\engine\input\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">input.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">input</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\build\src\engine\input\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\OpenGL_Tesselation\AdvancedOpenGL\build\src\engine\input\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">input.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">input</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\build\src\engine\input\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\OpenGL_Tesselation\AdvancedOpenGL\build\src\engine\input\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">input.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">input</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\build\src\engine\input\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\OpenGL_Tesselation\AdvancedOpenGL\build\src\engine\input\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">input.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">input</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\external\glew-2.1.0\include;D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\OpenGL_Tesselation\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\OpenGL_Tesselation\AdvancedOpenGL\external\glew-2.1.0\include;D:\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -95,10 +95,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\external\glew-2.1.0\include;D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\OpenGL_Tesselation\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\OpenGL_Tesselation\AdvancedOpenGL\external\glew-2.1.0\include;D:\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\external\glew-2.1.0\include;D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\OpenGL_Tesselation\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\OpenGL_Tesselation\AdvancedOpenGL\external\glew-2.1.0\include;D:\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -111,7 +111,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\external\glew-2.1.0\include;D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\OpenGL_Tesselation\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\OpenGL_Tesselation\AdvancedOpenGL\external\glew-2.1.0\include;D:\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -128,10 +128,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\external\glew-2.1.0\include;D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\OpenGL_Tesselation\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\OpenGL_Tesselation\AdvancedOpenGL\external\glew-2.1.0\include;D:\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\external\glew-2.1.0\include;D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\OpenGL_Tesselation\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\OpenGL_Tesselation\AdvancedOpenGL\external\glew-2.1.0\include;D:\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -144,7 +144,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\external\glew-2.1.0\include;D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\OpenGL_Tesselation\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\OpenGL_Tesselation\AdvancedOpenGL\external\glew-2.1.0\include;D:\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -161,10 +161,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\external\glew-2.1.0\include;D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\OpenGL_Tesselation\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\OpenGL_Tesselation\AdvancedOpenGL\external\glew-2.1.0\include;D:\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\external\glew-2.1.0\include;D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\OpenGL_Tesselation\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\OpenGL_Tesselation\AdvancedOpenGL\external\glew-2.1.0\include;D:\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -177,7 +177,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\external\glew-2.1.0\include;D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\OpenGL_Tesselation\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\OpenGL_Tesselation\AdvancedOpenGL\external\glew-2.1.0\include;D:\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -193,10 +193,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\external\glew-2.1.0\include;D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\OpenGL_Tesselation\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\OpenGL_Tesselation\AdvancedOpenGL\external\glew-2.1.0\include;D:\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\external\glew-2.1.0\include;D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\OpenGL_Tesselation\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\OpenGL_Tesselation\AdvancedOpenGL\external\glew-2.1.0\include;D:\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -208,11 +208,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input\CMakeLists.txt">
+    <CustomBuild Include="D:\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/TD4/SIONNEAU_Angele/OpenGL_Tesselation/AdvancedOpenGL/src/engine/input/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/OpenGL_Tesselation/AdvancedOpenGL/src/engine/input/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\Users\angele.sionneau\scoop\apps\cmake\3.24.2\bin\cmake.exe -SD:/TD4/SIONNEAU_Angele/OpenGL_Tesselation/AdvancedOpenGL -BD:/TD4/SIONNEAU_Angele/OpenGL_Tesselation/AdvancedOpenGL/build --check-stamp-file D:/TD4/SIONNEAU_Angele/OpenGL_Tesselation/AdvancedOpenGL/build/src/engine/input/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/OpenGL_Tesselation/AdvancedOpenGL -BD:/OpenGL_Tesselation/AdvancedOpenGL/build --check-stamp-file D:/OpenGL_Tesselation/AdvancedOpenGL/build/src/engine/input/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -221,11 +221,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\build\src\engine\input\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\OpenGL_Tesselation\AdvancedOpenGL\build\src\engine\input\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/TD4/SIONNEAU_Angele/OpenGL_Tesselation/AdvancedOpenGL/src/engine/input/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/OpenGL_Tesselation/AdvancedOpenGL/src/engine/input/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-C:\Users\angele.sionneau\scoop\apps\cmake\3.24.2\bin\cmake.exe -SD:/TD4/SIONNEAU_Angele/OpenGL_Tesselation/AdvancedOpenGL -BD:/TD4/SIONNEAU_Angele/OpenGL_Tesselation/AdvancedOpenGL/build --check-stamp-file D:/TD4/SIONNEAU_Angele/OpenGL_Tesselation/AdvancedOpenGL/build/src/engine/input/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/OpenGL_Tesselation/AdvancedOpenGL -BD:/OpenGL_Tesselation/AdvancedOpenGL/build --check-stamp-file D:/OpenGL_Tesselation/AdvancedOpenGL/build/src/engine/input/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -234,11 +234,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\build\src\engine\input\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\OpenGL_Tesselation\AdvancedOpenGL\build\src\engine\input\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/TD4/SIONNEAU_Angele/OpenGL_Tesselation/AdvancedOpenGL/src/engine/input/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/OpenGL_Tesselation/AdvancedOpenGL/src/engine/input/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-C:\Users\angele.sionneau\scoop\apps\cmake\3.24.2\bin\cmake.exe -SD:/TD4/SIONNEAU_Angele/OpenGL_Tesselation/AdvancedOpenGL -BD:/TD4/SIONNEAU_Angele/OpenGL_Tesselation/AdvancedOpenGL/build --check-stamp-file D:/TD4/SIONNEAU_Angele/OpenGL_Tesselation/AdvancedOpenGL/build/src/engine/input/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/OpenGL_Tesselation/AdvancedOpenGL -BD:/OpenGL_Tesselation/AdvancedOpenGL/build --check-stamp-file D:/OpenGL_Tesselation/AdvancedOpenGL/build/src/engine/input/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -247,11 +247,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\build\src\engine\input\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\OpenGL_Tesselation\AdvancedOpenGL\build\src\engine\input\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/TD4/SIONNEAU_Angele/OpenGL_Tesselation/AdvancedOpenGL/src/engine/input/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/OpenGL_Tesselation/AdvancedOpenGL/src/engine/input/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-C:\Users\angele.sionneau\scoop\apps\cmake\3.24.2\bin\cmake.exe -SD:/TD4/SIONNEAU_Angele/OpenGL_Tesselation/AdvancedOpenGL -BD:/TD4/SIONNEAU_Angele/OpenGL_Tesselation/AdvancedOpenGL/build --check-stamp-file D:/TD4/SIONNEAU_Angele/OpenGL_Tesselation/AdvancedOpenGL/build/src/engine/input/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/OpenGL_Tesselation/AdvancedOpenGL -BD:/OpenGL_Tesselation/AdvancedOpenGL/build --check-stamp-file D:/OpenGL_Tesselation/AdvancedOpenGL/build/src/engine/input/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -260,19 +260,19 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\build\src\engine\input\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\OpenGL_Tesselation\AdvancedOpenGL\build\src\engine\input\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input\InputManager.cpp" />
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input\Input_ControllerState.cpp" />
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input\Input_KeyboardState.cpp" />
-    <ClCompile Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input\Input_MouseState.cpp" />
+    <ClCompile Include="D:\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input\InputManager.cpp" />
+    <ClCompile Include="D:\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input\Input_ControllerState.cpp" />
+    <ClCompile Include="D:\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input\Input_KeyboardState.cpp" />
+    <ClCompile Include="D:\OpenGL_Tesselation\AdvancedOpenGL\src\engine\input\Input_MouseState.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\build\ZERO_CHECK.vcxproj">
-      <Project>{A6F066EB-C6D1-3B2E-B938-4495B82D2182}</Project>
+    <ProjectReference Include="D:\OpenGL_Tesselation\AdvancedOpenGL\build\ZERO_CHECK.vcxproj">
+      <Project>{D35BF9AB-4245-31A6-BEBA-06FB944626B8}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

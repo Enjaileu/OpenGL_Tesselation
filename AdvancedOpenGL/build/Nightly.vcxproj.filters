@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\build\CMakeFiles\f8967550802ab8cb514c3191c38d314c\Nightly.rule">
+    <CustomBuild Include="D:\OpenGL_Tesselation\AdvancedOpenGL\build\CMakeFiles\a0927c0a74399516bd8d0df801c9dce0\Nightly.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\CMakeLists.txt" />
+    <CustomBuild Include="D:\OpenGL_Tesselation\AdvancedOpenGL\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\TD4\SIONNEAU_Angele\OpenGL_Tesselation\AdvancedOpenGL\build\CMakeFiles\Nightly" />
+    <None Include="D:\OpenGL_Tesselation\AdvancedOpenGL\build\CMakeFiles\Nightly" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{7F216EC4-BCCA-39B2-B833-0ABAA0AC0414}</UniqueIdentifier>
+      <UniqueIdentifier>{F8ABA438-78B8-3090-A18E-43113248E879}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

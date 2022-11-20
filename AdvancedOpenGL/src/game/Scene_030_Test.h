@@ -25,8 +25,6 @@ private:
     float totalTime;
     const float timeScale = 0.05f;
 
-    bool tesselation{ true };
-
     // Uniforms
     Matrix4 mvp;
     Matrix4 view;

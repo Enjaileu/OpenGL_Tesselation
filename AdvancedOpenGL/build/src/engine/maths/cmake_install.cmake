@@ -1,4 +1,4 @@
-# Install script for directory: D:/TD4/SIONNEAU_Angele/OpenGL_Tesselation/AdvancedOpenGL/src/engine/maths
+# Install script for directory: D:/OpenGL_Tesselation/AdvancedOpenGL/src/engine/maths
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
